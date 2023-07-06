@@ -43,5 +43,12 @@ span.return {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    
+}
+
+div.ingsteps {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 25px;
+    vertical-align: top;
+    margin-right: 25px;
 }
