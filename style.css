@@ -4,16 +4,44 @@ body {
 }
 
 .main-photo {
-    width: 600px;height:400px
+    width: 600px;height:400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 .main-header {
     color: white ;
     background-color: black ;
     text-align: center ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
 }
 
 .center-align {
     text-align:center
+}
+
+span.button {
+    padding: 5px;
+    margin: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: grey;
+}
+
+.spacing {
+    margin-top:20px
+}
+
+span.return {
+    padding: 5px;
+    background-color:mediumseagreen;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
 }
